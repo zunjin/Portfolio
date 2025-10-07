@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></h1>
+        <nav id="navi">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>  
+    </header>
+    <main>
+        <!-- mainvisual -->
+        <div class="mainvisual">
+            <img src="img/mainvisual.png" alt="mainvisualpc" class="pc">
+            <img src="img/mainvisualsp.png" alt="mainvisualsp" class="sp">
+            <div class="fadein main-text">
+                <h2>Jinya Imakita</h2>
+                <p>丁寧な対応と確かな技術で<br>信頼を形に</p>
+            </div>
+        </div>
+    
+        <!-- About    -->
+         <section id="about">
+            <h3 class="sec-title">
+                <span class="about-text">About</span>
+            </h3>
+            <div class="fadein about-box">
+                <img src="img/man.png" alt="about">
+                <p>初めまして。Web制作を行っている 今北 甚也 と申します。 コーポレートサイトや個人事業向けのホームページ制作を中心に「見やすく、伝わりやすい」デザイン を意識して取り組んでいます。  使用できる技術は HTML / CSS / JavaScript / WordPress で、デザインからコーディング、公開後のサポートまで対応可能です。 また、丁寧なヒアリングと迅速な対応 を心がけ、お客様の不安を取り除きながら一緒にゴールを目指します。
+                    <br>学生時代から続けているサッカーで、チームの勝利という目標を達成するために、一人ひとりが自分の役割を全うし、協力し合うことの重要性を学びました。
+                    Web制作においても、お客様のビジネスを成功させるという共通の目標に向かって、私が「チームの一員」として、あなたのWebサイトのゴールを確実にサポートいたします。
+                    小さなご相談からでも、お気軽にご連絡ください。
+                </p>
+            </div>
+         </section>
+    
+         <!-- Works -->
+          <section id="works">
+            <div class="works-wrapper">
+                <h3 class="sec-title">
+                    <span class="work-text">Works</span>
+                </h3>
+                <p class="fadein">English Bloom(自主制作)</p>
+                <div class="fadein sample">
+                    <img src="img/sample.png" alt="sample">
+                    <a href="works.html">
+                        <div class="mask">
+                            <div class="caption"><span>View More</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+          </section>
+    
+          <!-- Skills -->
+           <section id="skills">
+            <h3 class="sec-title">Skills</h3>
+            <ul>
+                <li><img src="img/html-5_5968267.png" alt="html"></li>
+                <li><img src="img/css-3_5968242.png" alt="css"></li>
+                <li><img src="img/java-script_1199124.png" alt="javascript"></li>
+                <li><img src="img/wordpress_174881.png" alt="wordpress"></li>
+            </ul>
+           </section>
+    
+           <!-- Contact -->
+            <section id="contact">
+                <h3 class="sec-title">Contact</h3>
+                <form action="https://formspree.io/f/xwprkkpz" method="post" class="contact-form">
+                    <div class="form-unit">
+                        <label for="name">Name<span class="required">※required</span></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-unit">
+                        <label for="email">E-mail<span class="required">※required</span></label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div class="form-unit">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="form-unit">
+                        <label for="message">message<span class="required">※required</span></label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <a class="to-top" href="#"></a>
+        <small>&copy; 2025 portfolio site</small>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
